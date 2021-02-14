@@ -1,0 +1,18 @@
+@import "../css/main.css";
+
+.judul {
+    padding: 20px 100px 0 20px;
+}
+
+.contents {
+    padding: 0 10px 0 50px;
+}
+
+.titles {
+    margin-top: -20.9% !important;
+}
+
+section h2{
+    color: #35405a;
+    padding: 0 0 20px 0;
+}

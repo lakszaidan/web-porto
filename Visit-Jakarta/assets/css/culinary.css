@@ -1,0 +1,20 @@
+@import "./main.css";   
+
+.judul {
+    padding: 20px 100px 0 20px;
+}
+
+.contents {
+    padding: 30px 10px 0 50px;
+}
+
+.titles {
+    margin-top: -20.9% !important;
+}
+
+.contents h2{
+    color: #35405a;
+    padding: 0 0 20px 20px;
+}
+
+

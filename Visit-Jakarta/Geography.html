@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Jakarta</title>
+    <link rel="stylesheet" href="./assets/css/geography.css">
+</head>
+
+<body>
+    <header>
+        <div id="mainheader">
+            <img src="./assets/images/jkt3.jpg" alt="jkt" style="opacity: 0.6;">
+            <div class="titles">
+                <h1 class="title1">Visit</h1>
+                <h1 class="title2">Jakarta</h1>
+                <h4 class="title3">Indonesia's Capital City</h4>
+            </div>
+        </div>
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="Homepage.html">Homepage</a></li>
+                <li><a href="BriefHistory.html">Brief History</a></li>
+                <li><a href="Culinary.html">Culinary</a></li>
+                <li><a href="HistoricalPlaces.html">Historical Places</a></li>
+                <li><a href="#">Geography</a></li>
+                <li><a href="TouristAttraction.html">Tourist Attraction</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="judul">
+        <h2>Geography of Jakarta</h2>
+    </div>
+
+    <div class="gambar">
+        <img src="./assets/images/PETA JKT.jpg" alt="Peta Daerah DKI Jakarta" class="prov">
+    </div>
+
+    <main>
+        <article>
+            <h2>Borders and Territory</h2>
+            <p>
+                divided into 5 administrative cities and one administrative district, namely:
+                Central Jakarta administration city with an area of ​​47.90 km2, North Jakarta with
+                an area of ​​142.20 km2, West Jakarta with an area of ​​126.15 km2, South Jakarta with
+                an area 145.73 km2, and the City Administration of East Jakarta with an area of ​​187.73
+                km2, and the Thousand Islands Administrative District with an area of ​​11.81 km2. To
+                the north stretches the coast along 35 km, which is a place for 13 rivers and 2 canals.
+            </p>
+            <br>
+
+            <h4>Borders of DKI Jakarta</h4>
+            <table>
+                <tr>
+                    <th>North region</th>
+                    <td>Java sea</td>
+                </tr>
+                <tr>
+                    <th>East region</th>
+                    <td>City & District of Bekasi</td>
+                </tr>
+                <tr>
+                    <th>South region</th>
+                    <td>City of Depok</td>
+                </tr>
+                <tr>
+                    <th>West region</th>
+                    <td>City & District of Tangerang</td>
+                </tr>
+                <tr></tr>
+            </table>
+            <br>
+            <br>
+
+
+            <h2>Climate Condition</h2>
+            <p>
+                Jakarta has hot and dry temperatures or a tropical climate. Located in the western part of Indonesia,
+                Jakarta experiences the peak of the rainy season in January and February with an average rainfall of 350
+                millimeters with an average temperature of 27 ° C. Rainfall between January and early February is very
+                high, the peak of the dry season in August. with an average rainfall of 60 millimeters. September and
+                early October are very hot days in Jakarta, temperatures can reach 40 ° C. [5]. The average annual
+                temperature ranges from 25 ° -38 ° C (77 ° -100 ° F). [6]
+            </p>
+
+            <br>
+            <br>
+
+        </article>
+        <h4 style="text-align: center;">Interested to have a vacation in Jakarta? we are also providing travel service!
+            <br> Click the button below to register.
+        </h4>
+        <button onclick="document.getElementById('popout').style.display='block'" class="button">Register</button>
+
+        <div id="popout" class="popout">
+
+            <form class="content animate">
+                <div class="container" style="padding: 10 0 10 0 !important;">
+                    <label for="email"><b>Email</b></label>
+                    <br>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                    <br>
+                    <label for="name"><b>Name</b></label>
+                    <br>
+                    <input type="name" placeholder="Enter Name" name="name" required>
+                    <br>
+                    <button type="submit" onclick="onClickButton()" class="button" style="margin: 0 0 0 0 !important;">
+                        Register
+                    </button>
+
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('popout').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <br>
+    <hr>
+    <div class="bottom">
+        <div class="contact">
+            <h3>Contact us</h3>
+            <h4><i class="fas fa-mobile"></i> Phone : +62 89889778098</h4>
+            <h4><i class="fas fa-envelope"></i> E-mail : <a href="example.com">visitjkt@gmail.com</a></h4>
+            <h4><i class="fab fa-instagram-square"></i> Instagram : @visitjkt</h4>
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        </div>
+        <div class="address">
+            <h3>Address</h3>
+            <h4><i class="fas fa-map-marker-alt"></i>Jl. Raden Inten, Buaran, East Jakarta</h4>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>VisitJakarta.com &#169; 2020 All Rights Reserved</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+@import "./main.css";
+
+.header {
+    padding: 20px 100px 30px 50px;
+}
+
+.gambar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+
+

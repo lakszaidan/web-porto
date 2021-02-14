@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Jakarta</title>
+    <link rel="stylesheet" href="./assets/css/homepage.css">
+</head>
+
+<body>
+    <header>
+        <div id="mainheader">
+            <img src="./assets/images/jkt3.jpg" alt="jkt" style="opacity: 0.6;">
+            <div class="titles">
+                <h1 class="title1">Visit</h1>
+                <h1 class="title2">Jakarta</h1>
+                <h4 class="title3">Indonesia's Capital City</h4>
+            </div>
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <li><a href="#">Homepage</a></li>
+                <li><a href="BriefHistory.html">Brief History</a></li>
+                <li><a href="Culinary.html">Culinary</a></li>
+                <li><a href="HistoricalPlaces.html">Historical Places</a></li>
+                <li><a href="Geography.html">Geography</a></li>
+                <li><a href="TouristAttraction.html">Tourist Attraction</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="judul">
+            <h2>Welcome to our Homepage!</h2>
+            <p style="padding: 0 0 0 50px;">Welcome to Visit Jakarta Website!! we are here to provide you lots of useful
+                information about the Capital City of Indonesia, Jakarta!
+                in our Website we will give you informations such as Best Culinary, Brief History, Historical Places,
+                and others!!
+                And hopefully, our articles could be useful for the readers. Enjoy!
+            </p>
+        </div>
+        <div id="contents">
+            <article>
+                <br>
+                <h3 style="margin-left: 50px;">What is interesting about Jakarta?</h3>
+                <figure>
+                    <img src="./assets/images/selamatdtg.png" alt="Patung Selamat Datang">
+                    <caption><q>Selamat Datang</q> Statue</caption>
+                </figure>
+                <br>
+                <p>Before we talk quite deep about what's in Jakarta, let me tell you <b>WHAT</b> is Jakarta.
+                    <br>
+                    <br>
+                    <b DKI style="font-size: larger;">D</b>KI Jakarta is a Capital City of Indonesia and one of the
+                    biggest city is Indonesia. It is the only
+                    city in Indonesia that has the status of province. Jakarta is located on the northwest coast of
+                    Java.
+                    Previously it was known by several names including Sunda Kelapa, Jayakarta, and Batavia. In the
+                    international world
+                    Jakarta also has the nickname J-Town, or more popular The Big Durian because it is considered a city
+                    comparable
+                    to New York City (Big Apple) in Indonesia.
+                </p>
+                <p>And here are few general facts about Jakarta.</p>
+                <br>
+
+                <section>
+                    <h2>Multiculturalism</h2>
+                    <p>Jakarta has a lot of culture, because in addition to being the capital, Jakarta is also the
+                        economic
+                        center of the
+                        Indonesian state, therefore, the city of Jakarta is a place where residents who live outside of
+                        Jakarta come
+                        here to look for jobs with higher salaries, it is called <q><i>Rantau</i></q>. Some back to
+                        where
+                        they were but some decided to stay.
+                        And those who stayed here, live here, get married, having their own descendants yet also
+                        inherits
+                        their own local culture. And it is also often seen that the people who did <q><i>Rantau</i></q>
+                        spend more time together and got more respect to each other, even live in certain area to
+                        survive.
+                        Like chinese descendants live in certain area, and also ambonese. This is not a new thing
+                        anymore.
+                        Therefore, those are the reasons why here, in Jakarta there are many cultural fusions.
+                    </p>
+                    <br>
+
+                    <h2>Population</h2>
+                    <p>The population of DKI Jakarta in 2019 is projected to reach 10.5 million. This figure increased
+                        by
+                        0.73% from the
+                        target population in 2018, which amounted to 10.4 million people. The total female population in
+                        Jakarta is 5.3 million
+                        while the male population is 5.2 million. By age, the highest contributor to the total
+                        population of
+                        DKI Jakarta is in
+                        the productive age. The total population of DKI Jakarta aged 15-64 years is recorded at 7.6
+                        million.
+                        The highest number
+                        of population is in the age range of 25-29 years of 944.3 thousand inhabitants, 35-39 years of
+                        931.7
+                        thousand inhabitants,
+                        and 30-34 years of 926.2 thousand inhabitants.</p>
+                </section>
+            </article>
+        </div>
+
+        <h4 style="text-align: center;">Interested to have a vacation in Jakarta? we are also provide you travel
+            service!!!
+            <br> Click the button below to register.
+        </h4>
+
+        <button onclick="document.getElementById('popout').style.display='block'" class="button">Register</button>
+
+        <div id="popout" class="popout">
+
+            <form class="content animate">
+                <div class="container" style="padding: 15px !important;">
+                    <label for="email"><b>Email</b></label>
+                    <br>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                    <br>
+                    <label for="name"><b>Name</b></label>
+                    <br>
+                    <input type="name" placeholder="Enter Name" name="name" required>
+                    <br>
+                    <button type="submit" onclick="onClickButton()" class="button" style="margin: 0 0 0 0 !important;">
+                        Register
+                    </button>
+
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button"
+                        onclick="document.getElementById('popout').style.display='none'">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <hr>
+    <div class="bottom">
+        <div class="contact">
+            <h3>Contact us</h3>
+            <h4><i class="fas fa-mobile"></i> Phone : +62 89889778098</h4>
+            <h4><i class="fas fa-envelope"></i> E-mail : <a href="example.com">visitjkt@gmail.com</a></h4>
+            <h4><i class="fab fa-instagram-square"></i> Instagram : @visitjkt</h4>
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        </div>
+        <div class="address">
+            <h3>Address</h3>
+            <h4><i class="fas fa-map-marker-alt"></i>Jl. Raden Inten, Buaran, East Jakarta</h4>
+        </div>
+    </div>
+
+    <footer>
+        <p>VisitJakarta.com &#169; 2020 All Rights Reserved</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

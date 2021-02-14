@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Jakarta</title>
+    <link rel="stylesheet" href="./assets/css/culinary.css">
+</head>
+
+<body>
+    <header>
+        <div id="mainheader">
+            <img src="./assets/images/jkt3.jpg" alt="jkt" style="opacity: 0.6;">
+            <div class="titles">
+                <h1 class="title1">Visit</h1>
+                <h1 class="title2">Jakarta</h1>
+                <h4 class="title3">Indonesia's Capital City</h4>
+            </div>
+        </div>
+        <div id="navbar">
+            <ul>
+                <li><a href="Homepage.html">Homepage</a></li>
+                <li><a href="BriefHistory.html">Brief History</a></li>
+                <li><a href="Culinary.html">Culinary</a></li>
+                <li><a href="HistoricalPlaces.html">Historical Places</a></li>
+                <li><a href="Geography.html">Geography</a></li>
+                <li><a href="TouristAttraction.html">Tourist Attraction</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="judul">
+            <h2>Jakarta's Best Culinary</h2>
+            <p style="margin-left: 20px;"><b>Worth to try Jakarta Culinary -</b> If you are travelling to Jakarta, and you are
+                about to eat, maybe its not completed without trying some local culinary, right? So
+                here is the list for you to try some!!!</p>
+        </div>
+        <div class="contents">
+            <article>
+                <h2>Kerak Telor</h2>
+                <figure>
+                    <img src="./assets/images/culinaire/Jakarta-Kerak-Telor.png" alt="Kerak Telor">
+                    <caption>Kerak Telor</caption>
+                </figure>
+                <p>Kerak Telor is one of the most famous food of jakarta, if you are strolling around
+                    Central Jakarta, you will found it almost everywhere, especially in
+                    <a href="./historicalPlaces.html">Historical Places</a>, like Kota Tua, Monas, and
+                    others. The main composition of Kerak Telor is sticky rice, egg, some seasoning, and
+                    chili (optional). And for the garnish it has fried onions, and also
+                    <a href="https://id.wikipedia.org/wiki/Serundeng"><q><em>Serundeng</em></q></a>.
+                    And it is wrapped by rice paper. Sounds delicious right? yet it is only cost Rp 15.000
+                    - Rp 20.000 / pcs. Like to try?
+                </p>
+                <br>
+
+                <h2>Soto Betawi</h2>
+                <figure>
+                    <img src="./assets/images/culinaire/soto-betawi.jpg" alt="Soto Betawi">
+                    <caption>Kerak Telor</caption>
+                </figure>
+                <p>Soto Betawi is the best Jakarta's food with sauce or <q>kuah</q>, it's so good to try especially
+                    when the rain comes, so its the best to serve it hot. The ingredients of Soto Betawi are coconut
+                    milk,
+                    full cream milk, few spices, and meet. But, sometimes its different in certain shop, like some of
+                    them
+                    are using beef, beef tongue, beef innards, or other parts of beef, or even chicken. Maybe it's not
+                    about the topping. it is about the sauce, another Soto than Soto betawi such as Soto Mie, didn't use
+                    full cream milk as the sauce. They only use chicken broth and spices for the sauce. For this food,
+                    you
+                    can find it almost everywhere, even outer Jakarta, like Bekasi or Depok. Soto Betawi cost Rp 15.000
+                    -
+                    Rp 30.000 per bowl, Indonesian usually serve it with rice as their main food.
+                </p>
+                <br>
+
+                <h2>Ketoprak</h2>
+                <figure style="padding: 0 0 0 60px;">
+                    <img src="./assets/images/culinaire/ketoprak.jpg" alt="Ketoprak" style="width: 80%;">
+                    <br>
+                    <caption>Ketoprak</caption>
+                </figure>
+                <p>Ketoprak is the kind of food you really want to taste when you're in Jakarta. The portion per plate
+                    is going to make your belly full. The composition of Ketoprak are <q>lontong</q> (it is kind of rice
+                    cake) , ground peanut, brown sugar, and a little bit of water to make it into peanut sauce. And also
+                    white noodle, long beans, cucumber, crackers, and sweet soy sauce for the complement or topping. You
+                    can find Ketoprak in everywhere around Jakarta, mostly at the side of Jakarta's Street. It cost
+                    Rp 10.000 until Rp 15.000 per portion.
+                </p>
+                <br>
+                <br>
+                <br>
+        </div>
+
+        </article>
+        <h4 style="text-align: center;">Interested to have a vacation in Jakarta? we are alse providing travel
+            service!
+            <br> Click the button below to register.
+        </h4>
+        <button onclick="document.getElementById('popout').style.display='block'" class="button">Register</button>
+
+        <div id="popout" class="popout">
+
+            <form class="content animate">
+                <div class="container" style="padding: 15px !important;">
+                    <label for="email"><b>Email</b></label>
+                    <br>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                    <br>
+                    <label for="name"><b>Name</b></label>
+                    <br>
+                    <input type="name" placeholder="Enter Name" name="name" required>
+                    <br>
+                    <button type="submit" onclick="onClickButton()" class="button" style="margin: 0 0 0 0 !important;">
+                        Register
+                    </button>
+
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('popout').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <hr>
+    <div class="bottom">
+        <div class="contact">
+            <h3>Contact us</h3>
+            <h4><i class="fas fa-mobile"></i> Phone : +62 89889778098</h4>
+            <h4><i class="fas fa-envelope"></i> E-mail : <a href="example.com">visitjkt@gmail.com</a></h4>
+            <h4><i class="fab fa-instagram-square"></i> Instagram : @visitjkt</h4>
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        </div>
+        <div class="address">
+            <h3>Address</h3>
+            <h4><i class="fas fa-map-marker-alt"></i>Jl. Raden Inten, Buaran, East Jakarta</h4>
+        </div>
+    </div>
+
+    <footer>
+        <p>VisitJakarta.com &#169; 2020 All Rights Reserved</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
